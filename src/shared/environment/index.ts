@@ -14,5 +14,5 @@ export const Environment = {
   /**
    * Define a url base do backend.
    */
-  baseUrl: 'http://localhost:3001'
+  baseUrl: 'https://vencimento-api.onrender.com/'
 };
