@@ -28,22 +28,6 @@ export const LayoutCadastro: React.FC<Props> = ({ children, header, esconderBota
                   {header}
                 </>
               }
-
-              {/* Colocar a foto da barbearia do lado direito e o título centralizado */}
-              {/* <Box display='flex' justifyContent='space-between'>
-              <Box display='flex' flex={1} justifyContent='center'>
-                  <Typography variant={mdDown ? 'h5' : 'h4'}>{header}</Typography>
-                </Box>
-
-                <Box display='flex' justifyContent='end'>
-                  <img
-                  src={Logo}
-                  alt='logo'
-                    height={80}
-                    style={{ cursor: 'pointer', position: 'absolute' }}
-                  />
-                </Box>
-              </Box> */}
             </Grid>
 
             <Grid item xs={12}>

@@ -1,7 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react';
 
 import { Fade, Grid, Typography, LinearProgress, useTheme } from '@mui/material';
-import { Logo } from '../../../assets';
 
 interface ISplashScreen {
   setIsLoading?: (isLoading: boolean) => void;
@@ -40,19 +39,6 @@ export const SplashScreen: React.FC<ISplashScreen> = ({ setIsLoading }) => {
       alignItems="center"
       justifyContent="center"
       style={{ minHeight: '100vh' }}>
-      <Fade in>
-        <Grid item>
-          <img
-            alt="Logo GVdasa"
-            src={Logo}
-            style={{
-              width: '80px',
-              position: 'relative',
-              transition: 'transform .2s',
-            }}
-          />
-        </Grid>
-      </Fade>
       <Grid item>
         <Fade in>
           <LinearProgress

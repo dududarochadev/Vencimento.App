@@ -1,10 +1,9 @@
 {
-  "name": "cardapio",
+  "name": "venceu",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "start": "react-scripts start",
-    "server": "dotnet run --project ../CardapioApi/CardapioApi.csproj",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
